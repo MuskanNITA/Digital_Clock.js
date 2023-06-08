@@ -1,0 +1,50 @@
+body{
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	background-color: aliceblue;
+}
+#clock {
+	font-size: 90px;
+	width: 600px;
+	margin-top: 200px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: white;
+}
+@media screen and (max-width:720px)
+{
+	#clock
+	{
+		font-size: 60px;
+		width: 400px;
+	}
+}
+@media screen and (max-width:450px)
+{
+	#clock
+	{
+		margin-top: 280px;
+		font-size: 40px;
+		width: 300px;
+	}
+}
+@media screen and (max-width:380px)
+{
+	#clock
+	{
+		margin-top: 270px;
+		font-size: 40px;
+		width: 300px;
+	}
+}
+@media screen and (max-width:320px)
+{
+	#clock
+	{
+		font-size: 30px;
+		width: 300px;
+	}
+}
